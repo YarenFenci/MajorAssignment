@@ -4,35 +4,35 @@
  
 using namespace std;
  
-// Custom struct to store meeting details
+// struct to store meeting details
 struct Meeting {
    int start;
    int end;
    int index;
 };
  
-// Custom comparator function to sort meetings based on end times
+// comparator function to sort meetings based on end times
 bool compare(Meeting a, Meeting b) {
    return a.end < b.end;
 }
  
 int maxMeetings(int start[], int end[], int N) {
-   // Create a vector of Meeting structs to store meeting details
+   // create a vector of Meeting structs to store meeting details
    vector<Meeting> meetings;
    for (int i = 0; i < N; ++i) {
        meetings.push_back({ start[i], end[i], i });
    }
  
-   // Sort meetings based on end times
+   // sort meetings based on end times
    sort(meetings.begin(), meetings.end(), compare);
  
-   // Initialize variables
+   // ınitialize variables
    int count = 0;
    int prevEnd = 0;
  
-   // Iterate through sorted meetings
+   // ıterate through sorted meetings
    for (auto meeting : meetings) {
-       // If the current meeting doesn't overlap with the previous one, select it
+       // if the current meeting doesn't overlap with the previous one, select it
        if (meeting.start > prevEnd) {
            count++;
            prevEnd = meeting.end;
