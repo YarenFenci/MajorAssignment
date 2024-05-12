@@ -1,7 +1,11 @@
 # MajorAssignment
-Data Structures Algorıthms2
+
 Data Structures and Algorithms Major Assignment
-This project aims to explore various algorithms and problem-solving techniques in the field of Data Structures and Algorithms. It consists of 12 different problems implemented in C++, covering topics such as Greedy Algorithm, Dynamic Programming, Backtracking, and Divide and Conquer.
+
+C++ Code Execution Guide
+
+This project aims to explore various algorithms and problem-solving techniques in the field of Data Structures and Algorithms. 
+It consists of 12 different problems implemented in C++, covering topics such as Greedy Algorithm, Dynamic Programming, Backtracking, and Divide and Conquer.
 
 Problems
 Problem 1 - Greedy Algorithm: This problem requires implementing a solution using a greedy approach.
@@ -16,9 +20,12 @@ Problem 9 - Backtracking: Another Backtracking problem, possibly more complex or
 Problem 10 - Divide and Conquer: Implement a solution using the Divide and Conquer approach.
 Problem 11 - Divide and Conquer: Another problem to be solved using Divide and Conquer.
 Problem 12 - Divide and Conquer: A final problem in this category, possibly with a unique twist.
+
 Setup
+
 Clone the project: Use the following command to clone the project repository:
 https://github.com/YarenFenci/MajorAssignment
+
 Compiler Installation: Ensure you have a C++ compiler installed (e.g., g++), along with the necessary compiler environment (e.g., GCC) and any dependencies required for compilation.
 Usage Instructions
 Select a Problem: Choose the problem you want to solve from the list above.
